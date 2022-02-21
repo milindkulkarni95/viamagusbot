@@ -1,0 +1,16 @@
+{
+    "settings": {
+      "msbf": {
+        "apiPath": "",
+        "messagesPath": "/api/messages",
+        "appId": "",
+        "appPassword": ""
+      },
+      "nlp": {
+        "corpora": [
+          "./corpus.json"
+        ]
+      }
+    },
+    "use": ["Basic","ConsoleConnector","MsbfConnector"]
+  }
